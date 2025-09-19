@@ -1,0 +1,125 @@
+{
+  "id": 1,
+  "name": "Sample App",
+  "description": "A sample Flutter app created with FlutterBuilder",
+  "pages": [
+    {
+      "id": "home",
+      "name": "Home",
+      "widgets": [
+        {
+          "id": 1,
+          "type": "Text",
+          "value": "Welcome to FlutterBuilder!",
+          "color": "#2563EB",
+          "fontSize": 24,
+          "fontWeight": "bold"
+        },
+        {
+          "id": 2,
+          "type": "Text",
+          "value": "This is a sample app created with our drag-and-drop builder.",
+          "color": "#6B7280",
+          "fontSize": 16,
+          "fontWeight": "normal"
+        },
+        {
+          "id": 3,
+          "type": "Button",
+          "label": "Go to About Page",
+          "color": "#10B981",
+          "textColor": "#FFFFFF",
+          "action": "goTo:about"
+        },
+        {
+          "id": 4,
+          "type": "Image",
+          "url": "https://via.placeholder.com/300x200/3B82F6/FFFFFF?text=FlutterBuilder",
+          "width": 300,
+          "height": 200,
+          "alt": "FlutterBuilder Demo"
+        },
+        {
+          "id": 5,
+          "type": "Input",
+          "placeholder": "Enter your name",
+          "label": "Your Name",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "name": "About",
+      "widgets": [
+        {
+          "id": 6,
+          "type": "Text",
+          "value": "About FlutterBuilder",
+          "color": "#1F2937",
+          "fontSize": 20,
+          "fontWeight": "bold"
+        },
+        {
+          "id": 7,
+          "type": "Text",
+          "value": "FlutterBuilder is a powerful drag-and-drop tool for creating Flutter applications without coding.",
+          "color": "#4B5563",
+          "fontSize": 14,
+          "fontWeight": "normal"
+        },
+        {
+          "id": 8,
+          "type": "Container",
+          "direction": "column",
+          "spacing": 8,
+          "padding": 16,
+          "backgroundColor": "#F3F4F6",
+          "children": [
+            {
+              "id": 9,
+              "type": "Text",
+              "value": "Features:",
+              "color": "#374151",
+              "fontSize": 16,
+              "fontWeight": "bold"
+            },
+            {
+              "id": 10,
+              "type": "Text",
+              "value": "• Drag and drop interface",
+              "color": "#6B7280",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "id": 11,
+              "type": "Text",
+              "value": "• Real-time preview",
+              "color": "#6B7280",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "id": 12,
+              "type": "Text",
+              "value": "• Export to Flutter project",
+              "color": "#6B7280",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "type": "Button",
+          "label": "Back to Home",
+          "color": "#6366F1",
+          "textColor": "#FFFFFF",
+          "action": "goTo:home"
+        }
+      ]
+    }
+  ]
+}
